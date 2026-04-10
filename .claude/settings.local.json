@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pandas; import openpyxl; print\\(''依赖正常''\\)\")",
+      "Bash(python -c \"import pandas; import openpyxl; print\\(''OK''\\)\")",
+      "Bash(python excel_compare.py \"新建 XLSX 工作表 \\(3\\)\\(1\\).xlsx\" \"新建 XLSX 工作表\\(1\\).xlsx\" -o result.xlsx)",
+      "Bash(python -c \":*)",
+      "Bash(pip install:*)",
+      "Bash(pyinstaller spec_file.spec --clean)",
+      "Bash(cp:*)",
+      "Bash(timeout 5 \"./Excel比较工具/Excel比较工具.exe\")",
+      "Bash(rm -f test_result.xlsx result.xlsx)",
+      "Bash(rm -rf __pycache__)",
+      "Bash(rm -f test.xlsx)",
+      "Bash(rm -rf \"Excel比较工具\" build dist __pycache__ *.spec)",
+      "Bash(timeout 3 \"./Excel比较工具/Excel比较工具.exe\")",
+      "Bash(cd:*)",
+      "Bash(rm -f *.xlsx)",
+      "Bash(timeout 3 \"C:\\\\Users\\\\39187\\\\Desktop\\\\excel比对\\\\Excel比较工具\\\\Excel比较工具.exe\")",
+      "Bash(rm -rf \"Excel比较工具\" build dist __pycache__)",
+      "Bash(ls *.xlsx)",
+      "Bash(rm -f Excel比较工具/*.xlsx Excel比较工具/*.spec)",
+      "Bash(rm -rf build dist __pycache__)"
+    ]
+  }
+}

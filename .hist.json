@@ -1,0 +1,15 @@
+{
+  "f1": "C:/Users/39187/Desktop/junxun/dist/leave_summary.xlsx",
+  "f2": "C:/Users/39187/Desktop/junxun/leave_summary.xlsx",
+  "out": "",
+  "keys": [
+    "学号"
+  ],
+  "cmp": "精确匹配",
+  "nocase": false,
+  "std": true,
+  "large": false,
+  "fuzzy": true,
+  "parallel": false,
+  "num_tol": 1e-09
+}
