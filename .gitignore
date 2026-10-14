@@ -1,0 +1,65 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 打包 / 分发
+build/
+dist/
+*.egg-info/
+*.egg
+eggs/
+.eggs/
+sdist/
+wheels/
+parts/
+var/
+MANIFEST
+
+# PyInstaller（保留 spec_file.spec，仅忽略其产物与临时文件）
+*.manifest
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 本地 Agent / 工具配置 =====
+.claude/
+
+# ===== 运行时生成文件 =====
+.hist.json
+*.log
+
+# ===== 压缩包 / 打包产物（体积较大，不纳入版本管理）=====
+*.zip
+*.rar
+*.7z
+
+# ===== 工具生成的比较报告与高亮备份 =====
+比较报告_*.xlsx
+*_高亮*.xlsx
+*_高亮备份*.xlsx
+*_backup*.xlsx
+
+# ===== 测试 / 类型检查缓存 =====
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 操作系统文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
